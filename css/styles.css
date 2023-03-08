@@ -46,14 +46,14 @@ body {
     line-height: calc(24/16);
 }
 .header {
+    padding-top: 24px;
+    padding-bottom: 24px;
     border-bottom: 1px solid var(--color-bounder);
 }
 .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 .header-nav {
     display: flex;
@@ -149,7 +149,7 @@ body {
 }
 .section-features-list {
     display: flex;
-    column-gap: 8px;
+    column-gap: 24px;
 }
 .features-list-item {
     flex-basis: calc((100%-36px)/4);
@@ -159,7 +159,7 @@ body {
     column-gap: 24px;
 }
 .we-doing-list-item {
-    flex-basis: calc((100%-48px)/3);
+    flex-basis: calc((100%-72px)/4);
 }
 .team-section {
     background-color: var(--color-secondary-background);
@@ -196,7 +196,7 @@ body {
     text-align: center;
     text-transform: capitalize;
     letter-spacing: 0.02em;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .features-text,
 .team-text {
@@ -253,9 +253,9 @@ body {
 .portfolio-card-content {
     padding-bottom: 32px;
     padding-top: 32px;
+    padding-left: 16px;
     border: 1px solid var(--color-bounder);
     border-top: none;
-    text-align: center;
 }
 .portfolio-card-item {
     flex-basis: calc((100% - 48px) / 3);
